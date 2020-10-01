@@ -7,7 +7,7 @@ form{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     width: 320px;
-    height: 570px;
+    height: 670px;
     top: 55%;
     left: 50%;
     position: absolute;
@@ -21,7 +21,7 @@ input{
     background: #121212;
     box-shadow: inset 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
     border-radius: 185px;
-    font-size: 2em;
+    font-size: 2.5em;
     width: 200px;
     padding: 0 10px;
     color: white;
@@ -50,7 +50,7 @@ button{
     outline: none;
     letter-spacing: 1px;
     text-transform: uppercase;
-    font: 32px 'Montserrat', sans-serif;
+    font: 2.5em 'Montserrat', sans-serif;
     border: none;
     transition: 0.6s;
 }
@@ -67,7 +67,7 @@ button:hover{
     outline: none;
     letter-spacing: 1px;
     text-transform: none;
-    font: 32px 'Montserrat', sans-serif;
+    font: 2.5em 'Montserrat', sans-serif;
     color: white;
     text-decoration: none;
     
@@ -93,7 +93,7 @@ img{
     color: white;
 }
 strong{
-    font: 2em'Montserrat', sans-serif;
+    font: 2.5em 'Montserrat', sans-serif;
     color: white;
 }
 .violet:hover{

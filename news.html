@@ -10,13 +10,15 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
 integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles/form.css">
+    <link rel="stylesheet" type="text/css" href="styles/news.css">
 </head>
 <body>
 <nav class="navbar" id="js-nav">
     <a href="/" class="logo white">Dark<span class="violet">.ly</a></span>
     <ul class="main-nav"  id="js-menu">
-        <li><a class="nav-links" href="/">Home</a></li>
-        <li><a class="nav-links"  href="/">News</a></li>    
+        <li><a class="nav-links" href="index.html">Home</a></li>
+        <li><a class="nav-links"  href="news.html">News</a></li>    
         <li><a class="nav-links"  href="login.html">Login</a>
         </li>
     </ul>
@@ -40,6 +42,17 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
             
             parentNav.classList.toggle('clicked');
         });</script>    
-    
+    <div class="card">
+        <div class="news-title">
+            <p>News title</p>
+        </div>
+        <div class="news-img">
+            <img src="https://picsum.photos/200/300">
+        </div>
+        <div class="news-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc convallis justo eget neque interdum, eget faucibus tortor laoreet. Morbi accumsan enim diam, sit amet venenatis diam faucibus id. Donec mattis lobortis risus vitae imperdiet. In tempor hendrerit bibendum. Nulla viverra ultrices semper. Proin ut faucibus felis, id commodo nulla. Donec ac quam faucibus nulla tempus posuere.
+                <a class="news-link" href="article.html">Read more...</a>
+        </div>
+    </div>
 </body>
 </html>

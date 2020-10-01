@@ -21,7 +21,7 @@ input{
     background: #121212;
     box-shadow: inset 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
     border-radius: 185px;
-    font-size: 4em;
+    font-size: 2em;
     width: 200px;
     padding: 0 10px;
     color: white;
@@ -93,7 +93,7 @@ img{
     color: white;
 }
 strong{
-    font: 4em'Montserrat', sans-serif;
+    font: 2em'Montserrat', sans-serif;
     color: white;
 }
 .violet:hover{

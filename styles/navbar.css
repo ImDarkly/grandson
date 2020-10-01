@@ -84,7 +84,7 @@ nav ul li a:hover{
             display: block;
     }
     .clicked{
-        height: 35%;
+        height: 200px;
         border-radius: 25px;
     }
     .clicked ul li{
@@ -110,7 +110,7 @@ nav ul li a:hover{
         margin: 5px 30px;
     }
     .clicked ul {
-    height: 18%;    
+    height: 10px;    
     min-height: 100px;
     }       
 }

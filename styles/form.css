@@ -64,7 +64,6 @@ button:hover{
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 0 10px;
-    outline: none;
     letter-spacing: 1px;
     text-transform: none;
     font: 2.5em 'Montserrat', sans-serif;
@@ -80,18 +79,18 @@ button:hover{
 img{
     width: 150px;
 }
-
+.form-avatar{
+    margin-top: -600px;
+    font-size: 228px;
+    color: white;
+}
 .error{
     text-transform: lowercase;
     text-align: center;
     align-items: center;
 
 }
-.fa-user{
-    margin-top: -60px;
-    font-size: 228px;
-    color: white;
-}
+
 strong{
     font: 2.5em 'Montserrat', sans-serif;
     color: white;
@@ -101,6 +100,7 @@ strong{
     transition: 0.4s;
 }
 @media screen and (max-width: 860px){
+    
     input{
         font-size: 2em;
         width: 200px;
@@ -108,7 +108,7 @@ strong{
     strong{
         font-size: 2em;
     }
-    .fa-user{
+    .form-avatar{
         font-size: 144px;
         margin-top: -40px;
     }

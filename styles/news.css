@@ -8,7 +8,7 @@ p{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     width: 85%;
-    max-height: 720px;
+    max-height: 820px;
     box-sizing: border-box;
     text-align: center;
     margin: 30px auto;
@@ -51,18 +51,46 @@ img{
     
 }
 .fa-heart{
-    margin: auto 20px;
+    margin: auto 22px;
     margin-bottom: 10px;
 }
 .fa-comment{
-    margin: auto 20px;
+    margin: auto 22px;
     margin-bottom: 10px;
 }
 .fa-share{
-    margin: auto 20px;
+    margin: auto 22px;
     margin-bottom: 10px;
 }
 .fa-thumbtack{
-    margin: auto 20px;
+    margin: auto 22px;
     margin-bottom: 10px;
+}
+@media screen and (min-width: 860px) {
+    .card{
+        width: 40%;
+        margin: 60px auto;
+    }
+    .news-img{
+        height: 400px;
+    }
+    .news-feed{
+        margin-top: 200px;
+    }
+    .fa-heart{
+        margin: auto 55px;
+        margin-bottom: 20px;
+    }
+    .fa-comment{
+        margin: auto 55px;
+        margin-bottom: 20px;
+    }
+    .fa-share{
+        margin: auto 55px;
+        margin-bottom: 20px;
+    }
+    .fa-thumbtack{
+        margin: auto 55px;
+        margin-bottom: 20px;
+    }
 }
